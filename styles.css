@@ -1,0 +1,87 @@
+.text-center {
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+}
+
+.recipe-img {
+  width: 100%;
+}
+
+#nav {
+  text-align: left;
+}
+
+#category-title-mobile {
+  display: none;
+}
+
+#category-title-desktop {
+  display: block;
+}
+
+#noodle-app-mobile {
+  display: none;
+}
+
+#header-image-desktop {
+  display: none;
+}
+
+.recipe-title-mobile {
+  display: none;
+}
+
+.recipe-title-desktop {
+  display: block;
+}
+
+.category-title-mobile {
+  display: none;
+}
+
+.category-title-desktop {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  #header-image-desktop {
+    display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #nav {
+    text-align: center;
+  }
+
+  #category-title-mobile {
+    display: block;
+  }
+
+  #category-title-desktop {
+    display: none;
+  }
+
+  .recipe-title-mobile {
+    display: block;
+  }
+
+  .recipe-title-desktop {
+    display: none;
+  }
+
+  .category-title-mobile {
+    display: block;
+  }
+
+  .category-title-desktop {
+    display: none;
+  }
+
+  #noodle-app-mobile {
+    display: block;
+  }
+}
