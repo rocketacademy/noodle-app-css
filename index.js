@@ -44,4 +44,6 @@ const handleIncomingRequest = (request, response) => {
 // Initialise server with request listener function handleIncomingRequest
 // https://nodejs.org/api/http.html#http_http_createserver_options_requestlistener
 // Use port 3004 by convention.
-createServer(handleIncomingRequest).listen(3004);
+const PORT = process.argv[2];
+console.log("starting at port:" + PORT);
+createServer(handleIncomingRequest).listen(PORT);
